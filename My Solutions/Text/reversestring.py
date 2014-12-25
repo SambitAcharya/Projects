@@ -6,8 +6,11 @@ Problem: Reverse a String - Enter a string and the program will reverse it and p
 @author: Sambit
 
 '''
+#Functions
 
+#Function to compute the reverse of the string
 def reverse(string):
+
     """
 
         @param Input: Given String
@@ -16,8 +19,13 @@ def reverse(string):
     """
     return string[::-1]
 
-#Storing the input in @variable string
-string = input("Enter the string \n")
+#Main Function
+def main():
 
-#Printing the output to the console.
-print("The reversed string is \n"+reverse(string))
+    #Storing the input in @variable string
+    string = input("Enter the string \n")
+
+    #Printing the output to the console.
+    print("The reversed string is \n"+reverse(string))
+
+main()
