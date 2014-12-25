@@ -9,14 +9,6 @@ My Solutions for this project has been added in the My Solutions folder. It will
 
 You can find implementations of these projects in many other languages by other users in [this repo](https://github.com/thekarangoel/Projects-Solutions).
 
-## Donations
-
-If *Projects* has helped you in any way, and you'd like to help the developer, please consider donating.
-
-**- Gittip: [https://www.gittip.com/karan/](https://www.gittip.com/karan/)**
-
-**- Flattr: [https://flattr.com/profile/thekarangoel](https://flattr.com/profile/thekarangoel)**
-
 ================================
 
 Numbers
