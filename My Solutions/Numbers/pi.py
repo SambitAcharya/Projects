@@ -12,8 +12,12 @@ Keep a limit to how far the program will go.
 #Imports
 from decimal import *
 
+#Functions
+
 #Function to calculate the value of PI using Bellard's algorithm
+
 def bellard(n):
+
     """
 
         @param Input: Number of digits after the decimal point.
@@ -29,21 +33,29 @@ def bellard(n):
 
     return pi
 
-#Storing the input in @variable string
-NUMBER_OF_DIGITS = int(input("Enter the number of digits \n"))
 
-'''
-Number of digits have to be greater than zero
-Value set to 2 if any such input is given.
-'''
 
-if NUMBER_OF_DIGITS <= 0:
-    print("Number Of Digits set as negative or zero.")
-    print("Number Of Digits set to 2")
-    NUMBER_OF_DIGITS = 2
+#Main function
 
-getcontext().prec = NUMBER_OF_DIGITS + 1
-VALUE_OF_PI = bellard(NUMBER_OF_DIGITS + 1)
+def main():
 
-#Printing the output to the console.
-print(VALUE_OF_PI)
+    #Storing the input in @variable string
+    NUMBER_OF_DIGITS = int(input("Enter the number of digits \n"))
+
+    '''
+    Number of digits have to be greater than zero
+    Value set to 2 if any such input is given.
+    '''
+
+    if NUMBER_OF_DIGITS <= 0:
+        print("Number Of Digits set as negative or zero.")
+        print("Number Of Digits set to 2")
+        NUMBER_OF_DIGITS = 2
+
+    getcontext().prec = NUMBER_OF_DIGITS + 1
+    VALUE_OF_PI = bellard(NUMBER_OF_DIGITS + 1)
+
+    #Printing the output to the console.
+    print(VALUE_OF_PI)
+
+main()
