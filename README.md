@@ -3,7 +3,7 @@ Mega Project List
 
 A list of practical projects that anyone can solve in any programming language (See [solutions](https://github.com/thekarangoel/Projects-Solutions)). These projects are divided in multiple categories, and each category has its own folder.
 
-My Solutions for this project has been added in the My Solutions folder. It will be updated as i make progress.
+The solutions by me for this project has been added in the My Solutions folder and has also been linked with the problem in this file.
 
 ## [Solutions](https://github.com/thekarangoel/Projects-Solutions)
 
