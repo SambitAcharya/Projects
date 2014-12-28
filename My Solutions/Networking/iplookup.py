@@ -11,16 +11,19 @@ Optional: Find the Ip automatically.
 
 #Imports
 from ipwhois import IPWhois
+from ipwhois.utils import get_countries
 import ipgetter
 
 #Fetching the IP Address of own system
 IP = ipgetter.myip()
 
-obj = IPWhois(IP)
+countries = get_countries()
+
 # Change the IP above for some other location
+obj = IPWhois(IP)
 
 # Creates the dictionary containing the information returned
-results = obj.lookup()
+results = obj.lookup(False)
 
 #Printing the output to the console
-print results['nets'][0]['country']
+print countries[results['nets'][0]['country']]
