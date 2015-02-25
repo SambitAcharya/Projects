@@ -9,7 +9,7 @@ For numbers which are multiples of both three and five print “FizzBuzz”
 
 '''
 
-
+#Function
 def FizzBuzz(n):
     if n % 3 == 0 and n % 5 == 0:
         return 'FizzBuzz'
@@ -20,4 +20,5 @@ def FizzBuzz(n):
     else:
         return str(n)
 
+# Output
 print "\n".join(FizzBuzz(n) for n in xrange(1, 101))
